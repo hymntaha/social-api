@@ -1,0 +1,23 @@
+{
+  "name": "social-api",
+  "version": "1.0.0",
+  "description": "A nodejs api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hymntaha/social-api.git"
+  },
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Taha Uygun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hymntaha/social-api/issues"
+  },
+  "homepage": "https://github.com/hymntaha/social-api#readme"
+}
