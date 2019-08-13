@@ -4,7 +4,7 @@
   "description": "A nodejs api",
   "main": "app.js",
   "scripts": {
-    "test": "node api"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/hymntaha/social-api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
   }
 }
