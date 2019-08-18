@@ -5,6 +5,9 @@ const morgan = require('morgan');
 
 const {getPosts} = require('routes/post');
 
+app.use(morgan('dev'));
+
+
 app.get("/", getPosts)
 
 
