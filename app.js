@@ -8,7 +8,7 @@ const {getPosts} = require('routes/post');
 app.use(morgan('dev'));
 
 
-app.get("/", getPosts)
+app.use("/", getPosts)
 
 
 const port = 8080
