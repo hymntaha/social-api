@@ -3,12 +3,12 @@ const app = express();
 const morgan = require('morgan');
 
 
-const {getPosts} = require('routes/post');
+const postRoutes = require('routes/post');
 
 app.use(morgan('dev'));
 
 
-app.use("/", getPosts)
+app.use("/", postRoutes)
 
 
 const port = 8080
